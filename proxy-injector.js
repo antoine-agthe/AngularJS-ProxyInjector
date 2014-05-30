@@ -34,6 +34,7 @@
                         {
                             _setDependency.call( that, name, dep );
                         }
+                        return dep;
                     },
 
                     configurable : true,
